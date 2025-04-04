@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Introduccion a los formuilarios</h1>
+    <hr>
+    <form action="return false" method="get">
+        <fieldset>
+            <legend>informacion personal</legend>
+            <label for="name">nombre:</label>
+            <input type="text" id="name" name="name" placeholder="Escribe tu nombre" required maxlength="30" minlength="3"><br>
+
+        
+            <label for="pais">pais:</label>
+            <input type="text" id="pais" name="pais">
+                <details id="Paises">
+                    <option value="colombia"></option>
+                    <option value="peru"></option>
+                    <option value="canada"></option>
+                    <option value="bolivia"></option>
+                    <option value="argentina"></option>
+                </details>
+            <br><br>
+            <label for="usuario"></label>
+            <input type="text" name="usuario" placeholder="nombre de usuario" pattern="[a-z]" >
+            <br>
+            <label for="pass">contraseña</label>
+
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
+
+
+
+
+
